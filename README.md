@@ -1,4 +1,4 @@
-# Love2d Dark Errors skin
+# Love2d Dark Errors Skin
 
 Mini script for Love2d to make your errors screen much more beautiful
 
@@ -7,6 +7,6 @@ Mini script for Love2d to make your errors screen much more beautiful
 # How to install
 
 1. Clone this repo
-2. Copy `dark-errors` folder to your game folder
-3. Simply place `require 'dark-errors'` at the beginning of the `main.lua` file
+2. Copy `dark-errors` to your game folder
+3. Place `require 'dark-errors'` at the beginning of the `main.lua` file
 4. Enjoy!
