@@ -61,7 +61,7 @@ function love.errhand(msg)
 	p = string.gsub(p, "%[string \"(.-)\"%]", "%1")
 
     -- load image
-    --errorImage = love.graphics.newImage(currentFolder .. '/error.png')
+    errorImage = love.graphics.newImage(currentFolder .. '/error.png')
 
 
     local function format(stack)
@@ -97,7 +97,7 @@ function love.errhand(msg)
 	local function draw()
 		local pos = love.window.toPixels(70)
 		love.graphics.clear(love.graphics.getBackgroundColor())
-        --love.graphics.draw(errorImage, pos, pos)
+        love.graphics.draw(errorImage, pos, pos)
         love.graphics.printf(stackTrace, pos + 70, pos + 64, love.graphics.getWidth() - pos - 70)
 		love.graphics.present()
 	end
